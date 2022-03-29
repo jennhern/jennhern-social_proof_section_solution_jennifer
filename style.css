@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Spartan', sans-serif;
+    background-image: url(assets/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    margin:0;
+    height: 100vh;
+   
+}
+main{
+    background-image: url(assets/images/bg-pattern-bottom-desktop.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 100px 200px;
+    margin: auto;
+   
+}
+.caja_principal{
+    display: flex;
+    margin: auto;
+}
+    
+.caja_titulo{
+    width:400px;
+}
+.titulo{
+       color: hsl(300, 43%, 22%);
+       font-weight:700 ;
+       font-size: 40px;
+       letter-spacing:-2px;
+       margin-top: 0;
+}
+.size_num{
+    font-size: 40px;
+}
+.p_titulo{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%)
+}
+.rated{
+    display:block;
+    padding-left: 180px;
+    margin-top: 20px;
+    
+}
+.rated_opinion{
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 10px;
+    margin:0 80px 10px -80px;
+    border-radius: 5px;
+    padding: 12px 40px 12px 30px;
+    
+    
+}
+.rated_opinion2{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin:0 40px 10px -40px;
+    padding: 12px 40px 12px 30px;
+   
+}
+.rated_opinion3{
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 12px 40px 12px 30px;
+    
+}
+
+.star_size{
+    width: 12px;
+    height: 12px;
+}
+.text_star{
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container_opinion_1,
+.container_opinion_2,
+.container_opinion_3{
+    background-color: hsl(300, 43%, 22%);
+    width: 300px;
+    padding: 30px 27px 20px;
+    border-radius: 5px;  
+}
+
+.caja_container_2{
+    margin-top: 20px;
+}
+.caja_container_3{
+    margin-top:40px;
+    
+} 
+    
+.marco_img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    
+   
+}
+.header_card_1{
+    display: flex;
+    
+}
+.textos{
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 5px;
+    
+}
+.estilo_card_titulo{
+ color:hsl(0, 0%, 100%);
+
+}
+.estilo_card_titulo2{
+    color:hsl(333, 80%, 67%);
+   
+   }
+.texto_card{
+   font-size: 11px;
+   line-height: 20px;
+   color: hsl(0, 0%, 100%);
+}
