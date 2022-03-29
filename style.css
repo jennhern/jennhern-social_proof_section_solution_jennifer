@@ -6,7 +6,7 @@ body{
     background-image: url(assets/images/bg-pattern-top-desktop.svg);
     background-repeat: no-repeat;
     margin:0;
-    width:100%
+   
     
    
 }
@@ -14,7 +14,7 @@ body{
     background-image: url(assets/images/bg-pattern-bottom-desktop.svg);
     background-position: bottom right;
     background-repeat: no-repeat;
-    padding: 10% 10%;
+    padding: 100px 200px;
     
    
 }
@@ -141,6 +141,9 @@ body{
 
 
 @media screen and (min-width:360px) and (max-width:1000px){
+    .main{
+        padding: 30px 20px;
+    }
     .caja_principal{
         display: block;
         margin: auto;
@@ -151,13 +154,17 @@ body{
         margin:10px 0;
         text-align: center;
     }
+    .size_num{
+        font-size: 30px;
+    }
     .titulo{
-        width:100%;
+       font-size: 30px;
         text-align: center;
+        padding: 0 20px;
     }
     .p_titulo{
-        width:100%;
-        padding: 0 5%;
+        
+        padding: 0 20px;
         text-align: center;
     }
     .text_star{
@@ -179,4 +186,3 @@ body{
         
     
 }
-
